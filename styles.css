@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+.nav-bar-container{
+  background: #1F2937;
+  padding-bottom: 5%;
+}
+
+.nav-bar-semiContainer{
+    display: flex;
+    justify-content:space-between; 
+    padding-bottom: 5%;
+}
+
+.header-text{
+    display: flex; 
+    justify-content: center;   
+}
+
+.sub-header-link{
+    display: flex;
+    justify-content: center;
+    padding-right: 12em;
+}
+
+.logo{
+    font-family: Roboto;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 8em;
+}
+
+.links{
+   margin: 10px;
+   font-family: Roboto;
+   font-size: 18px;
+   color: #E5E7EB;
+   cursor: pointer;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    max-width:10em;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    width:26em;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Sign-btn-1{
+    background-color: #3882F6;
+    text-align: center;
+    margin-top:5px;
+    padding: 5px;
+    width: 100px;
+    border: #3882F6;
+    border-radius:5px;
+    cursor: pointer;
+    color: #E5E7EB;
+}
+
+.links-image{
+    width:30em;
+    background-color: #6D747D;
+    color: white;
+    padding: 5em;    
+}
+
+.random-info{
+    background-color:#FFFFFF; 
+    padding-bottom: 5%;
+    align-items: center;
+}
+
+.random-text{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 5%;
+}
+
+.illust-img{
+    display: flex;
+    justify-content:center;
+    gap: 2em;
+    
+}
+
+.illust-img div{
+    display: flex;
+    width: 8em;
+    height: 7em;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    margin-top: 2em;
+}
+
+.illust-text{
+    display: flex;
+    justify-content:center;
+    gap: 3em;
+    margin-top: 2px;
+    align-items: center;
+}
+
+.som-sub-text{
+    width: 7em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.quote-session{
+    background:#E5E7EB;
+    padding: 4%;
+}
+
+.quote-para{
+    font-family: "Roboto", sans-serif;
+    color:black; 
+    margin: 0 auto;
+    width: 23em;
+}
+
+.quote-head{
+    margin-left: 6em;
+    text-align: center;
+}
+
+.CTA{
+    background: #FFFFFF;
+    padding: 4%;
+
+}
+
+.action-time{
+    background-color: #3B82F6;
+    width: max-content;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4em;
+    border-radius: 15px;
+    color: #E5E7EB;
+}
+
+.action-tt.P{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.Sign-btn-2{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    border: 2PX solid #E5E7EB;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+footer{
+    background: #1F2937;
+    padding: 4%;
+}
+
+.footer-text{
+   text-align: center;
+   margin: 0 auto;
+}
+
